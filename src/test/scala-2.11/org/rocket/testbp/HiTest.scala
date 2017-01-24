@@ -8,6 +8,6 @@ import org.scalatest.FunSuite
 class HiTest extends FunSuite {
   test("Well behaved programs should know how to greet people.") {
     val hi = new Hi("tester")
-    assert(hi.sayHello == "Hello tester!")
+    assert(hi.sayHello == "Hello teste!")
   }
 }
