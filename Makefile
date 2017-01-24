@@ -1,6 +1,5 @@
 DOCKER=docker
 BUILDNAME=rocket/testbp
-#HOME=$(shell echo $HOME)
 
 docker: Dockerfile
 	$(DOCKER) build -t $(BUILDNAME) .
