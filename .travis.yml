@@ -13,7 +13,7 @@ services:
   - docker
 
 before_install:
-	- make docker
+  - make docker
 
 script:
   - make docker-test
